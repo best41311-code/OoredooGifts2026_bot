@@ -87,7 +87,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # تشغيل البوت
 if __name__ == '__main__':
-    TOKEN = "8699110958:AAFI59UvH_BkpP7EhyvkMiY53L874SvHiD8"
+    TOKEN = "9125663814:AAFlqwSHf3mWm_XUGXFL-MxoXonpd0OQ2vg"
     app = ApplicationBuilder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_message))
